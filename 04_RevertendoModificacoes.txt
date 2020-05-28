@@ -11,3 +11,34 @@ Reverter alteraçoes:
         * -mixed (Ele vota para o anterior, porem precisa adicionar add)
         * -hard (Ele volta tudo)
     git reset --hard 76ac5caedc3b8a40f664abd9caa25b33e300d19
+
+
+
+
+=========Observação
+
+O primeiro commir sempre será o ultimo alterado.
+
+
+===3º Commit
+commit a0dc239562f182e4fadf8beab09858ef3361d09b (HEAD -> master)
+Author: joaocarlosjcgl <joaocarlosjcgl@outlook.com>
+Date:   Wed May 27 22:41:50 2020 -0300
+
+    Criando o arquivo da aula 04_Revertendo Modificações
+
+
+===2º Commit
+commit c370554f16db7e76ec4f2e2d5c43af7c79e9a0ba
+Author: joaocarlosjcgl <joaocarlosjcgl@outlook.com>
+Date:   Wed May 27 22:40:42 2020 -0300
+
+    criando o arquivo css
+
+
+===1º Commit
+commit 76ac5caedc3b8a40f664abd9caa25b33e300d19b
+Author: joaocarlosjcgl <joaocarlosjcgl@outlook.com>
+Date:   Wed May 27 22:08:37 2020 -0300
+
+    Primeiro Commit
