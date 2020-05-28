@@ -1,0 +1,13 @@
+Lista os Branch do projeto:
+    git branch
+
+Adicionar e Comitar no mesmo comando:
+    git commit -am "texto a ser inserido"
+
+Reverter alteraçoes:
+    git reset {tipo do reset} {e o codigo do commit}
+
+        * -soft (Ele volta para o anterior, antes do commit)
+        * -mixed (Ele vota para o anterior, porem precisa adicionar add)
+        * -hard (Ele volta tudo)
+    git reset --hard 76ac5caedc3b8a40f664abd9caa25b33e300d19
