@@ -1,0 +1,17 @@
+===========COMANDOS BASICOS
+
+==> Acessar Pastas
+        cd c: 
+
+==> Listar Arquivos dentro da Pasta:
+        dir 
+        tree /f
+
+==> Criar Arquivos dentro da pasta:
+        mkdir nomeDaPasta
+
+==> Iniciando Repositorio:
+        git init
+
+==> Pasta oculta ao iniciar o repositorio:  
+        cd .git

@@ -1,0 +1,23 @@
+
+===Configurando o nome===
+$ git config --global user.name "joaocarlosjcgl"
+
+===Configurando o email===
+$ git config --global user.email "joaocarlosjcgl@outlook.com"
+
+===Configurando o Edito VS Code===
+$ git config --global core.editor "code --wait"
+
+
+
+
+==========LENDO INFORMAÇÕES CADASTRADAS
+
+Nome:
+    $ git config user.name
+
+Email:
+    $ git config user.email
+
+Todas Informações:
+    $ git config --list
