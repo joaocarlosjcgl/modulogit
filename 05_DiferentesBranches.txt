@@ -1,0 +1,8 @@
+Lista os Branch do projeto:
+    git branch
+
+Criando um novo Branch
+    git branch nomeDoBranch
+
+Trocando de Branch
+git checkout teste
