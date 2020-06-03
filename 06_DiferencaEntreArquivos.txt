@@ -1,0 +1,14 @@
+Comando para visualizar todas as mudanças
+    git diff
+
+Comando para visualizar os arquivos que foram modificados
+    git diff --name-only
+
+Comando para visualizar as mudanças em arquivos especifico
+    git diff nomeDoArquivo
+Ex.:git diff style.css
+
+
+Retornar mudanças em arquivos especificos
+    git checkout HEAD -- nomeDoArquivos
+Ex.:git checkout HEAD -- style.css

@@ -1,0 +1,2 @@
+Codigo para fazer commit no repositorio Remoto
+    $ git push origin master

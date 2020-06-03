@@ -1,0 +1,24 @@
+Comando para conectar o repositorio local ao remoto
+    ssh-keygen -t rsa -b 4096 -C "email cadastrado"
+
+
+
+
+Enviando arquivos do local para o remoto
+    git remote add origin https://github.com/joaocarlosjcgl/modulogit.git
+
+    ou
+
+    git push -u origin master
+
+
+Para visualizar as pasta remota
+    git remote -v
+
+    e retornara ...
+
+    origin  https://github.com/joaocarlosjcgl/modulogit.git (fetch)
+    origin  https://github.com/joaocarlosjcgl/modulogit.git (push)
+
+    Fetch ele tipo baixa a pasta do repositoio remoto
+    push envia o a pasta para o repositorio remoto
